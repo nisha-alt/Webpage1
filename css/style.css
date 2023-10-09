@@ -66,6 +66,24 @@ main h3{
     color:rgb(36, 11, 225);
     font-weight: 700;
 }
+/* Footer Section Start */
 footer h1{
     padding-top:20px;
 }
+/* Footer Section End */
+/* Media Queries Start */
+@media only screen and (max-width: 991px) {
+
+
+    section aside,
+    section main{
+    width:100%;
+    float:none;
+}
+
+section aside h3{
+    padding-top:10px;
+    margin:0px;
+}
+}
+/* Media Queries End */
